@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> MY WEB </title>
+    </head>
+        <body>
+            <h1> Hello các bạn! </h1>
+            <p> Chào mừng đến với thế giới web của tui. </p>
+            <p> Ở đây khum có gì cả...<br />
+            Chỉ có H đang tập tành code HTML thôi..hehe</p>
+            <a href = "https://github.com/fhpthh?tab=repositories">GITHUB của tui nè, mới lập thôi</a>
+            
+        </body>
+</html>
