@@ -1,131 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html = lang "en">
     <head>
-        <meta charset="utf-8">
-        <title>PHAN THI HONG HUE</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <title> TO DO LIST</title>
     </head>
     <body>
-        <div class="main">
-            <div class="navbar">
-                <div class="icon">
-                    <h2 class="logo">FH_pthh</h2>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#education">EDUCATION</a></li>
-                        <li><a href="#skills">SKILLS</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                    </ul>
-                </div>
-
-                <div class="search">
-                    <input class="srch" type="search" name="" placeholder="Type to text">
-                    <a href="#"><button class="btn"> search</button></a>
-                </div>
-            </div>
-            <div class="content">
-                <h1> XIN CHÀO</h1>
-                <p class="par">Đây là một chiếc web nhỏ xinh của mình. </br>
-                    Tập tành code để kiếm lương nghìn đô thôi...hehe
-                </p>
-            </div>
-             <!-- TOP NAV -->
-    <div class="topnav" id="home">
-        <div>
-            <div>
-                <div class="pulse-effect">
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                </div>
-                <img src="https://f9-zpcloud.zdn.vn/3294403819789056182/1c0aa62f9f5b43051a4a.jpg" alt="My photo" class="photo-img">
-            </div>
-            <div class="topnav-info">
-                <a class="topnav-title">Phan Thị Hồng Huế</a>
-                <div class="text-in"><a class="location"><i id="topnav-icon" class="fas fa-map-marked-alt"></i> Thái Bình, Việt Nam</a></div>
-                <div class="text-in"><a class="text-mt" href="mailto:huehongphan0807@gmail.com" title="Mail to huehongphan0807@gmail.com"><i id="topnav-icon" class="fas fa-mail-bulk"></i> huehongphan0807@gmail.com</a></div>
-                <div class="text-in"><a class="text-mt" href="tel:0344994662" title="Make a call to 0344994662"><i id="topnav-icon" class="fas fa-phone" ></i> 0344994662</a></div>
-            </div>
-            <div class="wrapper">
-                <div id="about">
-                    <h2>About</h2>
-                    <table class="about-info">
-                        <tbody>
-                            <tr>
-                                <td class="about-heading">Họ tên</td>
-                                <td>:</td>
-                                <td class="about-table-content">Phan Thị Hồng Huế</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="about-heading">Giới tính</td>
-                                <td>:</td>
-                                <td class="about-table-content">Nữ</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="about-heading">Ngày sinh</td>
-                                <td>:</td>
-                                <td class="about-table-content">08/07/2004</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="about-heading">Quốc tịch</td>
-                                <td>:</td>
-                                <td class="about-table-content">Việt Nam</td>
-                            </tr>
-                                
-                            <tr>
-                                <td class="about-heading">Quê quán</td>
-                                <td>:</td>
-                                <td class="about-table-content">Kiến Xương, Thái Bình, Việt Nam</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="about-heading">Interests</td>
-                                <td>:</td>
-                                <td class="about-table-content">Viết lách| Taekwondo | Du lịch</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>  
-                <div id="education">
-                    <h2>Education</h2>
-                    <div class="education-school">
-                        <h2 class="school-line">Trường THPT Bình Thanh</h2>
-                        <p class="info-line">A1-KHTN</p>
-                        <p class="date-line">09/2018 - 05/2022</p>
-                    </div>
-                    
-                    <div class="education-school">
-                        <h2 class="school-line">Học viện Công nghệ Bưu chính Viễn thông</h2>
-                        <p class="info-line">Chuyên ngành: CNTT</p>
-                        <p class="date-line">10/2022 - Now</p>
-                    </div>
-                </div>  
-                <div id="skills">
-                    <h2>Skills</h2>
-        
-                    <div class="tech-skills">
-                    <div class="soft-skills">
-                        <h2 class="skill-line">Soft skills</h2>
-                        <div >
-                            <ul class="skill-list">
-                                <li>Writing</li>
-                                <li>Networking</li>
-                                <li>Teamwork</li>
-                                <li>Creative thinking</li>
-                            </ul>
-                        </div>                
-                    </div>
-                </div>  
-        </div>
+        <section>
+            <h1> TO DO LIST </h1>
+            <form id="form">
+                <input type="text" id="task" placeholder="Task">
+                <button type="submit"> Add</button>
+            </form>
+            <ul id="class"></ul>
+        </section>
     </body>
+    <script src="./main.jss"></script>
 </html>
